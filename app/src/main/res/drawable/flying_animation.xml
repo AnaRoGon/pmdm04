@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+
+    <item android:drawable="@drawable/spyroflying01" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying02" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying03" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying04" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying05" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying06" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying07" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying08" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying09" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying10" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying11" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying12" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying13" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying14" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying15" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying16" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying17" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying18" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying19" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying20" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying21" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying22" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying23" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying24" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying25" android:duration="100"/>
+    <item android:drawable="@drawable/spyroflying26" android:duration="100"/>
+
+</animation-list>

@@ -2,9 +2,18 @@
 <resources>
     <color name="pink">#c55e97</color>
     <color name="purple">#9c35ba</color>
+    <color name="dark_purple">#451350</color>
     <color name="orange">#e7a56e</color>
+    <color name="gold">#f7b500</color>
     <color name="yellow">#fbdf6a</color>
+
     <color name="yellow2">#88ffffff</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
+
+    <color name="yellow_transparent">#B7FBF29E</color>
+    <color name="pink_transparent">#BBC55E97</color>
+    <color name="purple_transparent">#A99C27B0</color>
+    <color name="white_transparent">#77ffffff</color>
+    <color name="gold_transparent">#B7F7B500</color>
 </resources>

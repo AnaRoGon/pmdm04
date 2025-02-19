@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diseño para el botón de continuar de la guía -->
+<!-- Botón con degradado, contorno a color y bordes redondeados -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="30dp"/>
+    <solid android:color="@color/purple_transparent" />
+    <stroke
+        android:width="3dp"
+        android:color="@color/purple" />
+    <gradient
+        android:startColor="@color/dark_purple"
+        android:endColor="@color/purple"
+        android:type="linear"/>
+</shape>

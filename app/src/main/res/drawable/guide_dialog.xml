@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diseño para el bocadillo de información que aparecerá en cada apartado de la guía -->
+<!-- Se trata de un diseño ovalado con fondo morado semi-transparentes y borde morado -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <solid android:color="@color/purple_transparent" />
+    <stroke
+        android:width="3dp"
+        android:color="@color/purple" />
+
+</shape>

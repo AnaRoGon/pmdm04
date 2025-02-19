@@ -4,6 +4,29 @@
     <string name="characters">Personajes</string>
     <string name="collectibles">Coleccionables</string>
     <string name="title_about">Acerca de</string>
-    <string name="text_about">Aplicación desarrollada por \n <b>Lindsay Barrero Martínez.</b></string>
+    <string name="text_about">Aplicación desarrollada por \n <b>Ana Rodríguez González.</b></string>
     <string name="accept">Aceptar</string>
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="introduccion_guia">¿Preparado para adentrarte en el mundo de Spyro?</string>
+    <string name="guia">Prepárate para explorar el mundo mágico de esta aplicación inspirada en</string>
+    <string name="guia2">Aquí aprenderás a navegar por pestañas llenas de dragones, mundos fascinantes y montones de tesoros brillantes</string>
+    <string name="guia3">¿Listo para empezar?</string>
+    <string name="adelante">¡Adelante!</string>
+    <string name="dialog1">Desde aquí podrás explorar a todos los personajes del mundo de Spyro</string>
+    <string name="saltar">Saltar guía</string>
+    <string name="coleccionables">Desde aqui puedes consultar tus coleccionables</string>
+    <string name="mundos">Desde aquí podrás explorar los mundos disponibles</string>
+    <string name="info">Al pulsar sobre este botón obtendrás información sobre el desarrollador de la aplicación</string>
+    <string name="continuar">Continuar</string>
+    <string name="ir_a_la_app">Ir a la App</string>
+    <string name="guia_completada">¡Felicidades! Has recorrido todos los pasos de nuestra guía interactiva y ahora conoces cada rincón de la aplicación.</string>
+    <string name="habitantes">1. Hemos explorado los habitantes del mundo de Spyro</string>
+    <string name="descripcion_guia">
+                 1. Hemos explorado los habitantes del mundo de Spyro.\n\n
+                 2. Hemos descubierto los increíbles reinos por explorar.\n\n
+                 3. Hemos visto los tesoros disponibles.\n\n
+                 4. Hemos consultado la información sobre la App.\n</string>
+
+    <string name="guiaCompletada">¡Ya estás preparado para continuar tu viaje!</string>
+    <string name="gu_a_completada">¡Guía completada!</string>
 </resources>

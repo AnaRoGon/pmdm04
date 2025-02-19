@@ -4,27 +4,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- NavHostFragment para manejar la navegación entre fragmentos -->
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/navHostFragment"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:defaultNavHost="true"
-        app:layout_constraintBottom_toTopOf="@id/navView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/nav_graph" />
 
-    <!-- BottomNavigationView para la navegación inferior -->
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_nav_menu" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- NavHostFragment para manejar la navegación entre fragmentos -->
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/navHostFragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:defaultNavHost="true"
+            app:layout_constraintBottom_toTopOf="@id/navView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navGraph="@navigation/nav_graph" />
+
+        <!-- BottomNavigationView para la navegación inferior -->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/bottom_nav_menu" />
+
+        <dam.pmdm.spyrothedragon.FlamesCanvasView
+            android:id="@+id/flameView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Include con los layout necesarios para la guía interactiva -->
+    <FrameLayout
+        android:id="@+id/guideContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/guideLayout"
+            layout="@layout/guide" />
+        <include
+            android:id="@+id/guideLayout1"
+            layout="@layout/guidetab1" />
+        <include
+            android:id="@+id/guideLayout2"
+            layout="@layout/guidetab2" />
+        <include
+            android:id="@+id/guideLayout3"
+            layout="@layout/guidetab3" />
+        <include
+            android:id="@+id/guideLayout4"
+            layout="@layout/guide_info_button" />
+        <include
+            android:id="@+id/summaryLayout"
+            layout="@layout/summary" />
+        <include
+            android:id="@+id/videoLayout"
+            layout="@layout/video" />
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

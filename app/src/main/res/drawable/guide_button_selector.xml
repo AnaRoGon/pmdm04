@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Selector para definir el estilo del botón de la guía para la pantalla inicial y la de resumen según su estado -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/guide_button_normal" android:state_pressed="false" />
+
+    <item android:drawable="@drawable/guide_button_selected" android:state_pressed="true" />
+</selector>

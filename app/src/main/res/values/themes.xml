@@ -8,6 +8,7 @@
 
         <item name="android:windowSplashScreenBackground">@color/purple</item>
         <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash</item>
-
     </style>
+
+
 </resources>

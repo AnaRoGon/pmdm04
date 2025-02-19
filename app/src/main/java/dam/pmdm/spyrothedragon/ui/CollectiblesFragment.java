@@ -17,6 +17,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+import dam.pmdm.spyrothedragon.MainActivity;
 import dam.pmdm.spyrothedragon.R;
 import dam.pmdm.spyrothedragon.adapters.CollectiblesAdapter;
 import dam.pmdm.spyrothedragon.databinding.FragmentCollectiblesBinding;
@@ -36,9 +37,8 @@ public class CollectiblesFragment extends Fragment {
         recyclerView = binding.recyclerViewCollectibles;
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         collectiblesList = new ArrayList<>();
-        adapter = new CollectiblesAdapter(collectiblesList);
+        adapter = new CollectiblesAdapter(collectiblesList, getActivity());
         recyclerView.setAdapter(adapter);
-
         loadCollectibles();
         return binding.getRoot();
     }

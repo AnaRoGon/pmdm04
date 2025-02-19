@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diseño para el botón de saltar guía -->
+<!-- Botón con bordes y fondo transparente -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="30dp"/>
+    <solid android:color="@android:color/transparent" />
+    <stroke android:width="2dp" android:color="@color/purple" />
+</shape>
