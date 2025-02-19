@@ -6,16 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import androidx.recyclerview.widget.RecyclerView;
-
 import java.util.List;
-
 import dam.pmdm.spyrothedragon.MainActivity;
 import dam.pmdm.spyrothedragon.R;
-import dam.pmdm.spyrothedragon.databinding.ActivityMainBinding;
-import dam.pmdm.spyrothedragon.databinding.VideoBinding;
 import dam.pmdm.spyrothedragon.models.Collectible;
 
 public class CollectiblesAdapter extends RecyclerView.Adapter<CollectiblesAdapter.CollectiblesViewHolder> {
