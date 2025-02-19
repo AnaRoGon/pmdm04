@@ -18,7 +18,7 @@ Se han utilizado animaciones, videos y sonidos relacionados con la temática de 
 * **ObjectAnimator**: Se ha utilizado la clase **ObjectAnimator** para insertar animaciones que afectan a los bocadillos de texto, botones y menú de navegación.
 * **AnimatorSet**: Se ha utilizado la clase **AnimatorSet**, aprovechando que nos permite crear un set de animaciones y ejecutarlas a la vez para conseguir un efecto más organizado y simple.
 * **Media Player**: Se ha utilizado **MediaPlayer** para insertar sonidos y videos temáticos en la aplicación. Además de la etiqueta xml **VideoView**. 
-* Canvas: Se ha utilizado la clase **Canvas**, junto a **Paint** para crear una clase personalizada que nos permite simular una animación de fuego saliendo de la boca de Spyro en uno de los EasterEgg implementados. 
+* **Canvas**: Se ha utilizado la clase **Canvas**, junto a **Paint** para crear una clase personalizada que nos permite simular una animación de fuego saliendo de la boca de Spyro en uno de los EasterEgg implementados. 
 
 # Instrucciones de uso 
 
@@ -44,6 +44,16 @@ Aunque me he decantado por el intercambio aleatorio en el color de los círculos
 Sin embargo me ha parecido mas interesante que se mantenga e implementar un método que permita que sea el usuario el que decida cuando desaparezce la llamarada. 
 
 # Capturas de pantalla
+
+
+![01Captura](https://github.com/user-attachments/assets/75c569b2-c6d3-4299-836a-d0d7bf9652d5)
+
+
+![02Captura](https://github.com/user-attachments/assets/bdc40506-f614-47cc-8523-96416c2753bf)
+
+![03Captura](https://github.com/user-attachments/assets/60b12db9-8b1b-48f3-81cc-85b180649893)
+
+![04Captura](https://github.com/user-attachments/assets/874d7f82-3db6-40cb-b71d-fa11d5f7301c)
 
 
 
