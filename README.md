@@ -1,4 +1,4 @@
-# Introduccion
+# Guía interactiva temática basada en Spyro the Dragon
 Desarrollo de una guía interactiva orientada a mejorar la comprensión del funcionamiento de una aplicación inspirada en Spyro the Dragon, dada como base del proyecto.
 Se han utilizado animaciones, videos y sonidos relacionados con la temática de Spyro y se han añadido dos EasterEgg para hacerla más interesante. 
 
