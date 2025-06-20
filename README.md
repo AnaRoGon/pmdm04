@@ -1,5 +1,5 @@
 # Introduccion
-Para la actualización de la aplicación se ha incluidouna guía interactiva que ayudará al usuario a conocer mejor su funcionamiento. 
+Desarrollo de una guía interactiva orientada a mejorar la comprensión del funcionamiento de una aplicación inspirada en Spyro the Dragon, dada como base del proyecto.
 Se han utilizado animaciones, videos y sonidos relacionados con la temática de Spyro y se han añadido dos EasterEgg para hacerla más interesante. 
 
 # Características principales
@@ -20,7 +20,7 @@ Se han utilizado animaciones, videos y sonidos relacionados con la temática de 
 * **Media Player**: Se ha utilizado **MediaPlayer** para insertar sonidos y videos temáticos en la aplicación. Además de la etiqueta xml **VideoView**. 
 * **Canvas**: Se ha utilizado la clase **Canvas**, junto a **Paint** para crear una clase personalizada que nos permite simular una animación de fuego saliendo de la boca de Spyro en uno de los EasterEgg implementados. 
 
-# Instrucciones de uso 
+# ¿Cómo funciona la guía?
 
 El uso de la guía interactiva es automático. Se iniciará por defecto la primera vez que se ejecute la aplicación. 
 
@@ -29,7 +29,12 @@ Si el usuario selecciona el botón de saltar guía o la finaliza por completo la
 Para activar los EasterEgg: 
 
 1. **Clicar 4 veces en el RecyclerView de las Gemas**. El video redirigirá a la pantalla de coleccionables al finalizar o dejará de reproducirse si se clica sobre la pantalla. 
-2. **Mantener pulsado en el RecyclerView de Spyro** en la pantalla de personajes. Si se hace clic se parará la animación y el sonido. 
+2. **Mantener pulsado en el RecyclerView de Spyro** en la pantalla de personajes. Si se hace clic se parará la animación y el sonido.
+
+# Instrucciones de uso 
+Para ejecutar la app copia el enlace del repositorio en GitHub: <https://github.com/AnaRoGon/pmdm04.git>
+
+En el IDE de Android Studio selecciona en el menú; File -> New -> Project from Version Control y clica en la opción "Clone": El proyecto se cargará automáticamente y podrás ejecutarlo en el IDE.
 
 # Conclusiones del desarrollador 
 
@@ -47,7 +52,6 @@ Sin embargo me ha parecido mas interesante que se mantenga e implementar un mét
 
 
 ![01Captura](https://github.com/user-attachments/assets/75c569b2-c6d3-4299-836a-d0d7bf9652d5)
-
 
 ![02Captura](https://github.com/user-attachments/assets/bdc40506-f614-47cc-8523-96416c2753bf)
 
